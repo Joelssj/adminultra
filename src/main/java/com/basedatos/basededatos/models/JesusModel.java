@@ -2,8 +2,8 @@ package com.basedatos.basededatos.models;
 
 import jakarta.persistence.*;
 @Entity
-@Table(schema = "user")
-public class UserModel {
+@Table(schema = "jesus")
+public class JesusModel {
     @Id
     @Column(name = "id",updatable = false, nullable = false,  unique = true)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
